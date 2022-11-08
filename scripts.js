@@ -27,7 +27,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/256/{z}/{x}/{y}?access_
 			  geocoder: L.Control.Geocoder.photon(),
 	  }).addTo(map);
 	  
-        //hide to hide the map upon opening
+        <!-- hide to hide the map upon opening -->
 		
 		function createButton(label, container) {
     var btn = L.DomUtil.create('button', '', container);
