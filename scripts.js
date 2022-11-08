@@ -12,6 +12,7 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/256/{z}/{x}/{y}?access_
     id: 'mapbox/navigation-day-v1',
     accessToken: 'pk.eyJ1Ijoic3FuZ3V5ZW4iLCJhIjoiY2w5eXd1YXc0MDk3MjNucDg2cDhyN3JrbyJ9.aMzoD2AZBPUtaVP2yV5N-A',
 }).addTo(map);
+
       var control = L.Routing.control({
           waypoints: [
 				null
@@ -27,7 +28,6 @@ L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/256/{z}/{x}/{y}?access_
 	  }).addTo(map);
 	  
         //hide to hide the map upon opening
-		//create a popup 
 		
 		function createButton(label, container) {
     var btn = L.DomUtil.create('button', '', container);
