@@ -2,7 +2,7 @@ var directions = [
   "Welcome to the map!\nTo get started, click on the map and it'll add your first waypoint!\nContinue to click places on the map to add additional waypoints!!"
 ];
 window.alert(directions);
-document.getElementById("demo").innerHTML = directions[1];
+document.getElementById("demo").innerHTML = directions;
 
 var map = L.map('map').setView([47.25, -122.44], 11);
 
